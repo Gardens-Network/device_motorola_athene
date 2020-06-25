@@ -1,10 +1,14 @@
 [
 	{
-		"repository":  "android_kernel_motorola_msm8952",
-		"target_path": "kernel/motorola/msm8952"
+		"repository":  "device_motorola_athene",
+		"target_path": "device/motorola/athene"
 	},
 	{
-		"repository":  "android_vendor_motorola_athene",
+		"repository":  "vendor_motorola_athene",
 		"target_path": "vendor/motorola/athene"
+	},
+	{
+		"repository":  "kernel_motorola_msm8952",
+		"target_path": "kernel/motorola/msm8952"
 	}
 ]

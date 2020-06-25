@@ -46,6 +46,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	vendor.audio_hal.period_size=240 \
 	persist.audio.endcall.delay=250
 
+# Debug
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1
+
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
 	bluetooth.hfp.client=1 \

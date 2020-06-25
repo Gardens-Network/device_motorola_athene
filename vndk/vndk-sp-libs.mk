@@ -14,6 +14,7 @@ VNDK_SP_LIBRARIES := \
     libbase \
     libbcinfo \
     libblas \
+    libc \
     libc++ \
     libcompiler_rt \
     libcutils \
