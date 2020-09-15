@@ -44,7 +44,7 @@ PRODUCT_MANUFACTURER := motorola
 BOARD_VENDOR := motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRIVATE_BUILD_DESC="athene_f-user 8.1.0 OPJ28.111 22 release-keys" \
+	PRIVATE_BUILD_DESC="athene-user 8.1.0 OPJ28.111-22 532da release-keys" \
 	PRODUCT_NAME="athene" \
 	TARGET_DEVICE="athene"
 
@@ -52,5 +52,5 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := motorola/athene/athene:7.0/NPJS25.93-14-13/3:user/release-keys
-VENDOR_BUILD_FINGERPRINT := motorola/athene/athene:7.0/NPJS25.93-14-13/3:user/release-keys
+BUILD_FINGERPRINT := motorola/athene/athene:8.1.0/OPJ28.111-22/532da:user/release-keys
+VENDOR_BUILD_FINGERPRINT := motorola/athene/athene:8.1.0/OPJ28.111-22/532da:user/release-keys
