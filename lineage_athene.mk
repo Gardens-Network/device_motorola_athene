@@ -23,8 +23,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit some common Arrow stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common.mk)
 
 # Inherit from athene device
 $(call inherit-product, device/motorola/athene/device.mk)
@@ -36,18 +36,17 @@ TARGET_BOOTANIMATION_HALF_RES := true
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := athene
-PRODUCT_NAME := arrow_athene
+PRODUCT_NAME := lineage_athene
 PRODUCT_RELEASE_NAME := athene
-PRODUCT_BRAND := Motorola
-PRODUCT_MANUFACTURER := Motorola
+PRODUCT_BRAND := motorola
+PRODUCT_MANUFACTURER := motorola
 
 BOARD_VENDOR := motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRIVATE_BUILD_DESC="athene_f-user 8.1.0 OPJ28.111 22 release-keys" \
 	PRODUCT_NAME="athene" \
-	TARGET_DEVICE="athene" \
-	DEVICE_MAINTAINERS="fuyukihidekii"
+	TARGET_DEVICE="athene"
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
