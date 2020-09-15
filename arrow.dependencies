@@ -10,5 +10,11 @@
 	{
 		"repository":  "kernel_motorola_msm8952",
 		"target_path": "kernel/motorola/msm8952"
+	},
+	{
+		"repository": "motorola_cameraone",
+		"target_path": "packages/apps/MotCamera",
+		"branch" : "pie-arm",
+		"remote" : "moto-camera"
 	}
 ]
