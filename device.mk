@@ -102,10 +102,6 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_PACKAGES += \
     libbson \
     libshims_camera
- 
-# Moto Camera
-PRODUCT_PACKAGES += \
-    MotCamera
 
 # Disable camera Treble path
 PRODUCT_PROPERTY_OVERRIDES += \
